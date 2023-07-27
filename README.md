@@ -59,7 +59,7 @@
 ###### Camera : Interface Options > Camera
 
 #### Afterwards, reboot : 
-##### sudo reboot 
+##### - sudo reboot 
 
 #### Install piracer-py package
 ##### - cd ~
@@ -67,7 +67,6 @@
 ##### - cd piracer_test/
 ##### - python3 -m venv venv
 ##### - source venv/bin/activate
-
 ##### - pip install piracer-py
 
 
