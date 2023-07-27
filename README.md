@@ -6,6 +6,7 @@
 
 ### - [Download and Start Raspberry Pi Imager](https://www.raspberrypi.com/software/)
 ### - Choose OS
+##### - "SCL or GUI(Raspbian 64/32 bits)"
 ### - Select USB Driver
 ### - Go Setting (Advanced Option)
 
@@ -28,16 +29,46 @@
 
 ### - [Piracer-py](https://pypi.org/project/piracer-py/)
 
+##### - sudo -s
+##### - echo "deb http://archive.raspberrypi.org/debian/ buster main" >> /etc/apt/sources.list
+##### - apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 7FA3303E
+##### - apt update
+##### - exit
+
+
 #### - Important!! (You need to install some libraries and tools under below.)
-##### - gcc 
-##### - v4l-utils 
-##### - i2c-tools 
-##### - raspi-config 
-##### - python3-dev 
-##### - python3-setuptools 
-##### - python3-venv 
-##### - libopencv-dev
-##### - piracer-py 
+##### - sudo apt update
+##### - sudp apt install \
+##### - gcc \
+##### - v4l-utils \ 
+##### - i2c-tools \ 
+##### - raspi-config \ 
+##### - python3-dev \
+##### - python3-setuptools \ 
+##### - python3-venv \
+##### - libopencv-dev \
+##### - piracer-py \
+
+#### - If you choose Ubuntu
+##### - mount /dev/mmcblk0p1 /boot/
+
+#### Enable i2c and Camera
+
+##### Use the 'raspi-config' tool to enable the following peripherals:
+###### i2c : Interface Options > I2C
+###### Camera : Interface Options > Camera
+
+#### Afterwards, reboot : 
+##### - sudo reboot 
+
+#### Install piracer-py package
+##### - cd ~
+##### - mkdir piracer_test/
+##### - cd piracer_test/
+##### - python3 -m venv venv
+##### - source venv/bin/activate
+##### - pip install piracer-py
+
 
 ## After follwing some steps, you can trying example code in the [link](https://pypi.org/project/piracer-py/)
 
