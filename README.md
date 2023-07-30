@@ -88,6 +88,4 @@ After following these steps, you can try the example code provided in the [link]
   ![RC Example](https://github.com/Ho-mmd/DES_Project1/assets/55338823/f459b2e5-dbe7-48ee-a0ef-824d6a074ca3)
 
 - camera_grab_example.py: Check the Camera.
-```
 
-Please make sure to update the image URLs in the markdown to point to the correct image locations. Additionally, if there are any specific code blocks or content you want to include, feel free to add it to the markdown template I provided.
