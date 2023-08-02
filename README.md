@@ -85,7 +85,7 @@ After following these steps, you can try the example code provided in the [link]
 
 - basic_example.py: Operating throttle and steering.
 - rc_example.py: Check the Controller (Check Connect, Throttle, Steering works correctly)
-  ![RC Example](https://github.com/Ho-mmd/DES_Project1/assets/55338823/f459b2e5-dbe7-48ee-a0ef-824d6a074ca3)
+<img src="https://github.com/Ho-mmd/DES_Project1/assets/55338823/f459b2e5-dbe7-48ee-a0ef-824d6a074ca3.png" width="200" height="200"/>
 
 - camera_grab_example.py: Check the Camera.
 
