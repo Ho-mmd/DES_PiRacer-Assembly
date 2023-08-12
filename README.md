@@ -89,3 +89,22 @@ After following these steps, you can try the example code provided in the [link]
 
 - camera_grab_example.py: Check the Camera.
 
+## 4. Simple Explanation about code
+
+1. basic_example.py
+
+	- Test pi-racer operating well
+	- Moving Forward - Backward - left -right - sleep
+
+2. camera_grab_example.py
+
+	- Test pi-racer camera working well
+	- After working this file, if you get some image and it operates correctly
+	
+3. rc_example.py
+
+	- Control the pi-racer using controller 
+
+4. shutdown.py
+
+	- Stop movement of pi-racer
