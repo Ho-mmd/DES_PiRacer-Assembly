@@ -1,4 +1,4 @@
-# SEA:ME / DES_Project1
+# SEA:ME / DES_PiRacer-Assembly 
 
 ## 1. Install Ubuntu 22.04 Server on Raspberry Pi (Using Raspberry Pi Imager)
 
